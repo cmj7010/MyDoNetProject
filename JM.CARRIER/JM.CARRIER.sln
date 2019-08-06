@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JM.CARRIER", "JM.CARRIER\JM.CARRIER.csproj", "{886DBBED-B72A-4B0E-A110-C295C86C268B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JM.Util", "JM.Util\JM.Util.csproj", "{46BBDEBB-2992-4FFA-AB26-19689718D4A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{886DBBED-B72A-4B0E-A110-C295C86C268B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{886DBBED-B72A-4B0E-A110-C295C86C268B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{886DBBED-B72A-4B0E-A110-C295C86C268B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{886DBBED-B72A-4B0E-A110-C295C86C268B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46BBDEBB-2992-4FFA-AB26-19689718D4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46BBDEBB-2992-4FFA-AB26-19689718D4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46BBDEBB-2992-4FFA-AB26-19689718D4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46BBDEBB-2992-4FFA-AB26-19689718D4A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

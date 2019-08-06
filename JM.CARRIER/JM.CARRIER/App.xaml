@@ -1,0 +1,30 @@
+﻿<Application x:Class="JM.CARRIER.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:JM.CARRIER"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+                <Style x:Key="GridSplitterStyle" TargetType="{x:Type GridSplitter}">
+                    <Setter Property="Background" Value="#FF818181"/>
+                </Style>
+                <Style x:Key="TitleBar">
+                    <Setter Property="Control.Margin" Value="0,0,0,0"/>
+                    <!--Value="6,0,6,0"-->
+                    <Setter Property="Control.Background" Value="#FFC1D3F9"/>
+                    <Setter Property="Control.Height" Value="26"/>
+                    <Setter Property="Control.VerticalAlignment" Value="Center"/>
+                    <!--Setter Property="Control.VerticalAlignment" Value="Top"/-->
+                </Style>
+            <Style x:Key="CommonDataGrid" TargetType="DataGrid">
+                <Setter Property="AutoGenerateColumns" Value="False"></Setter>
+                <Setter Property="RowHeight" Value="24"></Setter>
+                <Setter Property="SelectionMode" Value="Single"></Setter>
+                <Setter Property="HorizontalGridLinesBrush" Value="#FFC7C7C7"></Setter>
+                <Setter Property="VerticalGridLinesBrush" Value="#FFC7C7C7"></Setter>
+                <Setter Property="Margin" Value="6,0,6,0"></Setter>
+                <Setter Property="IsReadOnly" Value="True"></Setter>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
